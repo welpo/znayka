@@ -1,0 +1,46 @@
+name: "Report a bug"
+description: "Help make знайка better by reporting an issue"
+labels: ["bug"]
+body:
+- type: textarea
+  attributes:
+      label: "What's happening?"
+      description: "Tell us what's not working right."
+      placeholder: "Example: The Cyrillic letters aren't displaying correctly, or the answer feedback isn't showing up."
+  validations:
+      required: true
+
+- type: textarea
+  attributes:
+      label: "How can we see it too?"
+      description: "What steps should we follow to see the same issue?"
+      placeholder: |
+          1. Open знайка
+          2. Click on...
+          3. Then...
+  validations:
+      required: true
+
+- type: dropdown
+  attributes:
+      label: "Where are you using знайка?"
+      options:
+          - "On my phone in a browser"
+          - "On my phone as an installed app"
+          - "On my computer in a browser"
+          - "On my computer as an installed app"
+  validations:
+      required: true
+
+- type: input
+  attributes:
+      label: "Which browser are you using?"
+      placeholder: "Example: Chrome, Safari, Firefox"
+  validations:
+      required: true
+
+- type: textarea
+  attributes:
+      label: "Anything else we should know?"
+      description: "Optional: Add any other helpful details"
+      required: false

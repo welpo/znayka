@@ -1,0 +1,35 @@
+name: "Feature request"
+description: "Share your ideas for знайка"
+labels: ["enhancement"]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for sharing your idea to make знайка better!
+
+- type: textarea
+  attributes:
+    label: "What's your idea?"
+    description: "Tell us about the feature you'd like to see!"
+    placeholder: "Example: It would be great if we could practice with cursive Cyrillic letters or add audio pronunciation"
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: "Why would this be helpful?"
+    description: "How would this feature make знайка more useful for you?"
+    placeholder: |
+      Example: This would help me learn to recognize handwritten Russian text.
+      It would be really practical for reading real Russian documents!
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: "Any specific details?"
+    description: "Optional: Share any other thoughts or suggestions about how this feature could work"
+    placeholder: |
+      Example: Adding different handwriting styles would be great! Maybe we could have fonts that look like native Russian handwriting.
+  validations:
+    required: false
