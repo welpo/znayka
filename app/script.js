@@ -534,7 +534,6 @@ function showNextLetter() {
     userInput.placeholder = "";
   }
 
-  userInput.focus();
 
   attemptedThisLetter = false;
 
